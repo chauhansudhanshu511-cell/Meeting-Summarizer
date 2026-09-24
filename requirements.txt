@@ -1,0 +1,25 @@
+# AI-Based Smart Meeting Summarization - Python dependencies
+# Install with:  pip install -r requirements.txt
+# Works with Python 3.10 - 3.13
+
+# Web interface
+streamlit>=1.50
+
+# Speech-to-Text (Whisper, fast CPU version). Also installs "av" (PyAV),
+# which contains FFmpeg inside it, so a separate FFmpeg install is NOT needed.
+faster-whisper>=1.1.0
+av>=12.0
+
+# Transformer summarization model (DistilBART) - CPU version of PyTorch is installed by default on Windows
+torch>=2.6
+transformers>=4.40,<5
+
+# NLP: named entities, noun phrases (model installed separately: python -m spacy download en_core_web_sm)
+spacy>=3.8.5,<4
+
+# PDF export
+fpdf2>=2.7.8
+
+# General
+numpy
+pandas

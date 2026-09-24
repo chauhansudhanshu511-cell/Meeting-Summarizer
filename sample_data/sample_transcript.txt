@@ -1,0 +1,21 @@
+Priya: Good morning everyone. Um, let's start the meeting. Today we need to review the progress of our mini project, the Smart Attendance System using face recognition, and plan the work for the next two weeks.
+Rahul: Sure. So, uh, I have completed the face detection module using OpenCV. It detects faces correctly in good lighting, but the accuracy drops in low light conditions.
+Priya: That's good progress, Rahul. How many student images do we have in the dataset right now?
+Rahul: Right now we have only around 150 images. I think we need at least 500 images to get better recognition accuracy.
+Priya: Okay. Rahul, can you collect the remaining face images from our classmates by Friday?
+Rahul: Yes, I will collect the remaining images by Friday and also clean the dataset.
+Sneha: I wanted to discuss the database. Earlier we planned to use MySQL, but installing and configuring MySQL on every laptop is taking too much time.
+Arjun: I agree with Sneha. For a mini project, SQLite is much simpler because it is just a single file and it comes with Python.
+Priya: That makes sense. So we have decided to use SQLite instead of MySQL for storing the attendance records.
+Sneha: Great. I will create the database tables for students and attendance by next Monday.
+Arjun: For the user interface, I compared Tkinter and Streamlit. Streamlit looks more professional and it is, uh, much faster to build.
+Priya: Okay, let's go with Streamlit for the user interface. Arjun, you will design the main dashboard and the attendance report page.
+Arjun: Sure, I'll finish the dashboard design within five days.
+Priya: Now, about the documentation. Our guide, Dr. Mehta, told us that the final project report must be submitted before 20th March.
+Sneha: I can take care of the project report. I will write the introduction, literature survey, and methodology chapters by 15th March, and then everyone can add their module details.
+Priya: Perfect. Also, the final presentation and demo to the department is on 25th March, so we must finish testing one week before that.
+Rahul: Should we also add a feature to send attendance reports by email?
+Priya: Hmm, that's a good idea, but we don't have enough time. We agreed to keep email notifications as future scope and not include it in this version.
+Arjun: Okay. Who will prepare the presentation slides?
+Priya: I'll prepare the presentation slides and also integrate all the modules together by 18th March.
+Priya: So to summarise, Rahul collects the dataset by Friday, Sneha creates the database and writes the report, Arjun designs the dashboard, and I will handle the integration and slides. Let's meet again next Wednesday to check the progress. Thank you everyone.

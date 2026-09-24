@@ -1,0 +1,10 @@
+[server]
+# Maximum upload size in MB (for long meeting recordings)
+maxUploadSize = 500
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#2E75B6"

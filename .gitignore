@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Downloaded AI models (large; re-created by download_models.py)
+models/*
+!models/.gitkeep
+
+# Generated results and temp uploads
+outputs/*
+!outputs/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets (never commit)
+.env
+.streamlit/secrets.toml
