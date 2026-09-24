@@ -1,11 +1,9 @@
 # AI-Based Smart Meeting Summarization
+   🔗 **Live Demo:** [https://meeting-summarizer-ibm.streamlit.app](https://meeting-summarizer-ibm.streamlit.app/)
 
 Convert meeting audio or video into concise summaries, key points, decisions and action items using AI — running **100% locally** on a Windows laptop (CPU only, no paid APIs).
 
-> B.Tech Mini Project • Python • Streamlit • faster-whisper • DistilBART • spaCy
-
-Academic documentation (abstract, objectives, methodology, conclusion…) → `docs/PROJECT_REPORT.md`
-Presentation scripts + 25 viva questions → `docs/VIVA_PREPARATION.md`
+> B.Tech Project • Python • Streamlit • faster-whisper • DistilBART • spaCy
 
 ---
 
